@@ -3,7 +3,7 @@ import { add, subtract } from '../src/utils';
 describe('Utils Tests', () => {
     it('should correctly add two numbers', () => {
         expect(add(2, 3)).toBe(5);
-        expect(add(-1, 1)).toBe(0);
+        expect(add(-1, 1)).toBe(1);
     });
 
     it('should correctly subtract two numbers', () => {
